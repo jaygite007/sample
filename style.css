@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+.main{
+    height: 100vh;
+}
+.photo{
+    height:60vh;
+    background: url(https://images.unsplash.com/photo-1496372412473-e8548ffd82bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1314&q=80);
+    background-size: cover;
+}
+.nav{
+    padding: 10px;
+    height: 10vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    gap: 4rem;
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav ul{
+    padding: 10px;
+}
+.nav button{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.info{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.info h1{
+    font-size: 70px;
+}
+.info p{
+    font-size: 18px;
+}
+.search{
+    height: 10vh;
+    width: 40vw;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgb(137, 203, 203);
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+.search button{
+    border-radius: 12px;
+    background-color: rgb(253, 255, 255);
+    height: 70%;
+    width: 15%;
+}
+input{
+    border-radius: 12px;
+    height: 100%;
+    width: 85%;
+    background-color: rgb(253, 255, 255);
+    padding: 10px;
+
+}
+.message{
+    display: flex;
+}
+.boxes{
+    /* border: 2px solid red; */
+    height: 40vh;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50vw;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50vw;
+}
+.box1 .crux{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 10vw;
+    height: 100%;
+    color: aliceblue;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.box1 p{
+    text-align: left;
+    width: 40vw;
+    padding: 10px;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes .box1{
+    height: 15vh;
+    border: 2px solid white;
+    width: 50vw;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: black; */
+    color: rgb(0, 0, 0);
+}
